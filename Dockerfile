@@ -12,7 +12,9 @@ CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80 22
 
 
-# FROM  centos:latest
+# new commit
+ 
+# FROM  centos:latest 
 # MAINTAINER vikashashoke@gmail.com
 # RUN yum install -y httpd \
 #  zip\
